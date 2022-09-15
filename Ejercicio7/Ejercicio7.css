@@ -1,0 +1,32 @@
+/*body hace referencia al cuerpo del archivo html, el atributo
+    background-color permite colocarle un color determinado al fondo*/
+body{
+    background-color: rgba(130, 107, 152, 0.723);
+}
+
+/*font-family indica el tipo de letra que se va a utilizar, el primer
+    valor sirve para referenciar a la fuente linkeada en el html, el segundo
+    valor es por si la primer fuente falla
+    text-align indica la posición en la que deberá estar el texto*/
+p{
+    color:rgb(46, 0, 61);
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+}
+
+/*El . indica el elemento al cual estamos referenciando mediante su atributo class.
+    font-weight determina el grosor del texto, en este caso negrita*/
+.p1{
+    font-weight: bold;
+}
+
+/*font-style permite modificar el estilo del texto, en este caso
+    se coloca en itálica*/
+.p2{
+    font-style: italic;
+}
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
